@@ -1,4 +1,2 @@
 #!/bin/bash
-parent_dir=$(dirname "$PWD")
-find . -maxdepth 1 -name "*.html" -newer "$parent_dir" -exec cp -n {} "$parent_dir" \;
-
+cp -u *.htm ..
